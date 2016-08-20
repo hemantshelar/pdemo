@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
+    //Generic interface
     public interface IRepository<T>
     {
         void Add(T newEntity);
